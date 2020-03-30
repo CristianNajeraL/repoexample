@@ -8,6 +8,9 @@ setup(
     author='Cristian Najera',
     author_email='cristian.najera@rappi.com',
     license='unlicense',
-    packages=['repoexample'],
+    packages=[
+        'repoexample',
+        'repoexample/math_functions'
+    ],
     zip_safe=False
 )
